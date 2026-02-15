@@ -1,0 +1,21 @@
+.tic-table{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #FFA500;
+    border-radius: 9px;
+}
+
+.board-row{
+    display: flex;
+    flex-direction: row;
+}
