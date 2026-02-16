@@ -1,19 +1,78 @@
 
-body{
+.login-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding-top: 5rem;
 }
 .card{
     width: 400px;
-    height: 300px;
+    height: 360px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     display: flex;
     padding: 20px;
     flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.login-container h1{
+    color: #FFA500;
+    margin-bottom: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card form{
     align-items: center;
+}
+
+.card label{
+    font-size:14px;
+      color:#0f172a;
+      display:block;
+      margin-bottom:6px;
+      font-weight:600;
+}
+
+.card input{
+     width:100%;
+      padding:12px 14px;
+      border-radius:10px;
+      border:1px solid #FFA500;
+      background:linear-gradient(180deg, #ffffff, #fbfdff);
+      outline:none;
+      font-size:14px;
+      transition:box-shadow .18s ease, border-color .18s ease, transform .06s ease;
+      box-shadow: 0 2px 8px #FFA500;
+}
+
+.card label, input{
+    font-size: 15px;
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
     justify-content: center;
+
+}
+
+.card button{
+    display:inline-block;
+      width:100%;
+      padding:12px 14px;
+      border-radius:10px;
+      background:linear-gradient(180deg,#FFA500,#bd7b00);
+      color:white;
+      font-weight:700;
+      border:none;
+      cursor:pointer;
+      letter-spacing:0.4px;
+      box-shadow:0 10px 30px rgba(43,124,255,0.18);
+      transition:transform .12s ease, box-shadow .12s ease, opacity .12s ease;
 }

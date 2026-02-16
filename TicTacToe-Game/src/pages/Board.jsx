@@ -40,6 +40,7 @@ function Board() {
     <div className='tic-table'>
 
     <div className='board'>
+        <h2>Tic Tac Toe</h2>
     <div className='board-row'>
         <Square style={{borderRadius:"15px 0 0 0"}} value={squares[0]} onSquareClick={() => {handleclick(0)}}/>
         <Square value={squares[1]} onSquareClick={() => {handleclick(1)}}/>
@@ -56,7 +57,10 @@ function Board() {
         <Square style={{borderRadius:"0 0 15px 0"}} value={squares[8]} onSquareClick={() => {handleclick(8)}}/>
     </div>
     </div>
+    <div className='winner'>
+        <h2>Winner And Next Player Identification</h2>
     <div className='status'>{status}</div>
+    </div>
     </div>
     </>
   )

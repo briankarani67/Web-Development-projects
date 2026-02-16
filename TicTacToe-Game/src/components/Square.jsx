@@ -8,7 +8,7 @@ function Square({value, onSquareClick}) {
     //     setValue("X");
     // }
   return (
-    <button style={{width:90, height:90}} className='square' onClick={onSquareClick}>{value}</button>
+    <button style={{width:90, height:90, color:"#FFA500", background:"white", fontSize:34, fontWeight:600, borderColor:"#FFA500"}} className='square' onClick={onSquareClick}>{value}</button>
   )
 }
 
